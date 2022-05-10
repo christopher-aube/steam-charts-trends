@@ -1,0 +1,32 @@
+@use './vars' as *;
+
+@-ms-viewport {
+  width: device-width;
+}
+
+html,
+body,
+div {
+  position: relative;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: $font-size--default;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: none;
+  font-family: $font-family;
+  background-color: $bg--default;
+  color: $color--default;
+}
+
+body {
+  font-size: $font-size--body;
+}
